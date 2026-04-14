@@ -1,0 +1,16 @@
+{
+  "name": "shortest-metro-route-finder",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack shortest metro path finder using Dijkstra algorithm",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
